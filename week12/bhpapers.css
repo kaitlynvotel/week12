@@ -1,0 +1,561 @@
+html {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#wrapper {
+
+    border: 0;
+    margin: auto;
+
+
+}
+
+h1 {
+    font-family: "Varela Round";
+}
+
+h2 {
+    font-family: "Varela Round";
+}
+
+h3 {
+    font-family: "Varela Round";
+}
+
+p{
+    font-family: "Open Sans";
+}
+
+body {
+    background-image: linear-gradient(-30deg,  #E5FFF6, #ADD8E6,  #6495ED);
+    background-repeat: no-repeat;
+}
+
+
+    a:link, a:visited {
+        background-color: none;
+        color:blue;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: none;
+        text-decoration: none;
+        color: black;
+      }
+
+      a:hover {
+          text-decoration: none;
+      }
+  
+    /* Header CSS */
+
+header {
+    height: 12.5%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-logo {
+    max-height: 100px;
+    width: auto;
+}
+
+.nav-tab {
+    margin: 5px;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    display: block;
+
+    background-color: ivory;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+
+    /* End Header CSS */
+
+    /* Main CSS */
+#main {
+    /* grid-area: main; */
+    /* background-color: ivory; */
+
+}
+    /* Authors CSS */
+
+.authorcontentwrapper {
+    margin: 0 3em 3em 3em;
+}
+
+
+
+.projecttitle {
+    font-family: 'Varela Round' ;
+    font-size: 20pt;
+    text-align: center;
+    padding: 1em;
+}
+
+.projecttitle h2 {
+    margin-block-start: .2em;
+    margin-block-end: .2em;
+}
+
+.authorcontainer {
+    display: block;
+    margin: auto;
+    background-color: white;
+    background-image: url(images/backgroundimage2.png);
+    border-radius: 5px;
+}
+
+.authorcontent {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+
+.authorwrapper {
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+}
+
+
+
+
+.authorheadshot {
+    /* grid-area: headshot; */
+    display: block;
+    text-align: center;
+    width: 24em;
+    height: 24em;
+    margin-top: 1em;
+
+
+}
+
+.authorname {
+    /* grid-area: name; */
+    text-align: center;
+    max-width: 24em;
+    display: block;
+    background-color: #c5c5c5;
+
+
+}
+
+.authorname h3 {
+    font-family: 'Varela Round' ;
+    font-size: 22pt;
+    margin-block-start: .5em;
+    margin-block-end: 0;
+}
+
+
+.authorinfo {
+    /* grid-area: bio; */
+    max-width: 24em;
+    display: block;
+    background-color: #c5c5c5;
+    text-align: center;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+
+
+ 
+}
+
+.authorinfo p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 10pt;
+    font-family: 'Open Sans';
+}
+
+    /* End Author CSS */
+
+/* Start Meet UP CSS */
+
+
+
+/* End Meet Up CSS */
+/* Gallery CSS */
+
+#biopiclabel p{
+    font-family: "Open Sans";
+}
+
+.projectcontent{
+    display: block;
+    background-color: #f8f8f8;
+    display: block;
+    border: 3px;
+    border-style: dashed;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 800px;
+    max-height: 800px;
+    line-height: 200%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.projectcontent p {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: left;
+    font-family: 'Open Sans';
+}
+
+.contentarrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rightarrow img {
+    max-width: 2em;
+    max-height: 1em;
+    margin-left: 2em;
+}
+
+.leftarrow img {
+    max-width: 2em;
+    max-height: 1em;
+    margin-right: 2em;
+}
+
+.leftarrow {
+    margin: .5em;
+    display: block;
+    background-color: cornflowerblue;
+    /* border: 1px solid #00688B; */
+    box-shadow: 2px 1px #00688B;
+    padding: .5em;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 10pt;
+    width: 110px;
+}
+
+.rightarrow {
+    margin: .5em;
+    display: block;
+    background-color: cornflowerblue;
+    /* border: 1px solid #00688B; */
+    box-shadow: 2px 1px #00688B;
+    padding: .5em;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-size: 10pt;
+    width: 110px;
+}
+
+
+/* End Gallery CSS */
+
+/* End Meet Up CSS */
+
+/* Sign Up CSS */
+.signupcontainer {
+    background-color: #f8f8f8;
+    padding: 2em;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 3em;
+    max-height: 600px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 50% 10% 40%;
+    grid-template-areas: 
+    
+    "pic pencil form"
+    
+    ;
+}
+
+.signupimage {
+    grid-area: pic;
+    
+}
+
+.signupimage img {
+    text-align: center;
+    max-height: 450px;
+    display: block;
+
+}
+
+#pencilimage {
+    grid-area: pencil;
+    margin: auto;
+    display: block;
+    max-height: 400px;
+    width: auto;
+
+}
+
+.formbox {
+    grid-area: form;
+    /* width: 24em; */
+    text-align: left;
+    display: block;
+    padding: 1em;
+}
+
+
+
+.formbox h3 {
+    font-family: 'Varela Round';
+    font-size: 18pt;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+}
+
+.form {
+    font-family: 'Varela Round';
+    font-size: 14pt;
+}
+
+.small-box {
+    border: 1px solid;
+    padding: 2px;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+.big-box {
+    border: 1px solid;
+    padding: 2px;
+    width: 90%;
+    height: 150px;
+    margin-bottom: 5px;
+    
+}
+#name-label {
+    font-weight: bold;
+}
+
+#email-label {
+    font-weight: bold;
+}
+
+#about-label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* End Sign Up CSS */
+
+/* Home CSS */
+/* #homeimage {
+    display: block;
+    text-align: center;
+    width: 100%;
+} */
+
+.mainimageblock {
+    background-color: white;
+    background-image: url(images/backgroundimage2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 550px;
+    max-width: 100%;
+    margin-top: 0;
+
+}
+
+p{
+    font-family: "Open Sans";
+}
+
+.mainimageblock p {
+    display: block;
+    position: relative;
+    margin: 0;
+    margin-right: 10em;
+    margin-bottom: 0em;
+    margin-left: 20em;
+    margin-top: 0em;
+    max-height: 300px;
+    max-width: 300px;
+    background-color: #f8f8f8;
+    font-family: 'Open Sans';
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#aboutintroduction {
+    margin-top: 3em;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+
+#aboutintroduction h1{
+
+    margin-block-start: 0em;
+    margin-block-end:0em;
+    text-align: left;
+    font-family: 'Varela Round';
+    font-size: 18pt;
+
+}
+
+.aboutsquares {
+    display: flex;
+    justify-content: center;
+margin: auto;
+display: grid;
+text-align: center;
+grid-template-columns: repeat(3 , 25%);
+gap: 3em;
+grid-template-areas: 
+    "pm cc co"
+
+;
+}
+
+#pm #cc #co {
+    margin: 1em;
+    display: block;
+    background-color: #c5c5c5;
+
+}
+
+#pm  {
+    margin: 1em;
+    grid-area: pm;
+    display: block;
+    background-color: #c5c5c5;
+}
+
+#cc  {
+    margin: 1em;
+    grid-area: cc;
+    display: block;
+    background-color: #c5c5c5;
+}
+
+#co  {
+    margin: 1em;
+    grid-area: co;
+    display: block;
+    background-color: #c5c5c5;
+}
+
+
+#pm h3 {
+    font-family: "Varela Round";
+    font-size: 14pt;
+}
+
+#cc h3 {
+    font-family: "Varela Round";
+    font-size: 14pt;
+}
+
+#co h3 {
+    font-family: "Varela Round";
+    font-size: 14pt;
+}
+
+#pm p {
+    font-family: 'Open Sans';
+    font-size: 14pt;
+}
+
+#cc p {
+    font-family: 'Open Sans';
+    font-size: 14pt;
+}
+
+#co p {
+    font-family: 'Open Sans';
+    font-size: 14pt;
+}
+#aboutus {
+    margin-right: 6em;
+    margin-left: 6em;
+
+}
+#aboutus h3 {
+    font-family: 'Varela Round';
+    font-size: 18pt;
+}
+
+#aboutus p {
+    font-family: 'Open Sans';
+    font-size: 14pt;
+}
+
+
+
+/* End Home Css */
+
+
+    /* End Main CSS */
+
+    /* Footer CSS */
+#footer{
+    /* grid-area: footer; */
+    text-align: center;
+}
+
+.footelementcontainer {
+    margin-left: 3em;
+    margin-right: 3em;
+    font-family: 'Open Sans';
+    padding-bottom: 1em;
+}
+
+.footnav {
+    display: block;
+    margin: 2px , 10px;
+}
+
+.copyrightinfo {
+    display: flex;
+    align-content: baseline;
+    font-size: 10pt;
+    font-family: "Open Sans";
+}
+
+
+
+.footsocialmediacontainer {
+    margin-top: 1em;
+    grid-area: socials;
+}
+
+.socialmedia{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+    /* End Footer CSS */
