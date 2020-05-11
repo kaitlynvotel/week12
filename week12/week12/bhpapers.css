@@ -23,6 +23,7 @@ h2 {
 
 h3 {
     font-family: "Varela Round";
+    font-size: 22pt;
 }
 
 h4 {
@@ -52,7 +53,7 @@ body {
       a:hover, a:active {
         background-color: none;
         text-decoration: none;
-        color: black;
+        color: blue;
       }
 
       a:hover {
@@ -79,6 +80,7 @@ body {
 .largecontainer {
     display: block;
     margin: auto;
+    margin-bottom: 2em;
     background-color: white;
     background-image: url(images/backgroundimage2.png);
     border-radius: 5px;
@@ -111,6 +113,7 @@ body {
     margin: auto;
     border-radius: 5px;
     max-width: 800px;
+    min-width: 24em;
     max-height: 800px;
     line-height: 200%;
     margin-top: 0em;
@@ -127,12 +130,7 @@ header {
     height: 12.5%;
 }
 
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
+
 
 .header-logo {
     max-height: 100px;
@@ -149,7 +147,9 @@ header {
     font-weight: bold;
     border-radius: 20px;
 
+    font-family: 'Varela Round';
 }
+
 
 
     /* End Header CSS */
@@ -175,7 +175,7 @@ header {
 }
 
 .authorheadshot {
-    /* grid-area: headshot; */
+
     display: block;
     text-align: center;
     width: 24em;
@@ -186,7 +186,6 @@ header {
 }
 
 .authorname {
-    /* grid-area: name; */
     text-align: center;
     max-width: 24em;
     display: block;
@@ -204,7 +203,6 @@ header {
 
 
 .authorinfo {
-    /* grid-area: bio; */
     max-width: 24em;
     display: block;
     background-color: #c5c5c5;
@@ -253,11 +251,14 @@ header {
     border-radius: 5px;
     text-align: center;
     max-width: 800px;
-    max-height: 800px;
+    min-width: 24em;
+    min-height: 800px;
     line-height: 200%;
     margin-top: 0em;
     margin-bottom: 2em;
+    padding-top: 2em;
 }
+
 
 .projectcontent p {
     margin-left: 3em;
@@ -274,42 +275,10 @@ header {
     justify-content: center;
 }
 
-.rightarrow img {
-    max-width: 2em;
-    max-height: 1em;
-    margin-left: 2em;
-}
 
-.leftarrow img {
-    max-width: 2em;
-    max-height: 1em;
-    margin-right: 2em;
+.galleryarrow{
+    margin-top: 1em;
 }
-
-.leftarrow {
-    margin: .5em;
-    display: block;
-    background-color: cornflowerblue;
-    box-shadow: 2px 1px #00688B;
-    padding: .5em;
-    border-radius: 5px;
-    font-family: 'Open Sans';
-    font-size: 10pt;
-    width: 110px;
-}
-
-.rightarrow {
-    margin: .5em;
-    display: block;
-    background-color: cornflowerblue;
-    box-shadow: 2px 1px #00688B;
-    padding: .5em;
-    border-radius: 5px;
-    font-family: 'Open Sans';
-    font-size: 10pt;
-    width: 110px;
-}
-
 
 
 /* End Gallery CSS */
@@ -326,19 +295,9 @@ header {
     margin-bottom: 3em;
     max-height: 600px;
     text-align: left;
-    display: grid;
-    grid-template-columns: 50% 10% 40%;
-    grid-template-areas: 
-    
-    "pic pencil form"
-    
-    ;
 }
 
-.signupimage {
-    grid-area: pic;
-    
-}
+
 
 .signupimage img {
     text-align: center;
@@ -347,18 +306,8 @@ header {
 
 }
 
-#pencilimage {
-    grid-area: pencil;
-    margin: auto;
-    display: block;
-    max-height: 400px;
-    width: auto;
-
-}
 
 .formbox {
-    grid-area: form;
-    /* width: 24em; */
     text-align: left;
     display: block;
     padding: 1em;
@@ -419,7 +368,6 @@ header {
 
     /* Footer CSS */
 #footer{
-    /* grid-area: footer; */
     text-align: center;
 }
 
@@ -446,7 +394,6 @@ header {
 
 .footsocialmediacontainer {
     margin-top: 1em;
-    grid-area: socials;
 }
 
 .socialmedia{
@@ -456,3 +403,92 @@ header {
 }
 
     /* End Footer CSS */
+
+
+/* Tablet Viewport */
+@media only screen and (max-width: 720px) {
+
+    #pencilimage {
+        display: none;
+    }
+
+    .nav-tab {
+        margin: 5px;
+        padding: 5px 15px;
+        width: 100%;
+        margin-bottom: 0;
+        display: block;
+    
+        background-color: ivory;
+        font-weight: bold;
+        border-radius: 20px;
+    
+        font-family: 'Varela Round';
+    }
+
+
+
+}
+
+
+
+/* End Tablet Viewport */
+
+/* Mobile Viewport */
+@media only screen and (max-width: 480px) {
+    
+.largecontentwrapper {
+    margin: auto;
+}
+
+.largecontainer {
+      display: inherit;
+      margin: auto;
+      background-color: inherit;
+      background-image: inherit;
+      border-radius: 5px;
+  } 
+
+.mediumcontainer {
+    max-width: 400px;
+    margin: auto;
+}
+
+#homecontainer {
+    display: block;
+    margin: auto;
+    background-color: white;
+    background-image: url(images/backgroundimage2.png);
+    border-radius: 5px;
+  }
+  
+#sdcontentwrapper{
+    margin: 0;  
+    margin-bottom: 3em; 
+  }
+
+#homeimage{
+      display: none;
+  }
+
+.formbox {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #f8f8f8;
+}
+
+.projectcontent {
+    margin: 0;
+}
+
+#main {
+ margin: 0;
+}
+
+
+
+
+
+  }
+
+  /* End Mobile Viewport */
